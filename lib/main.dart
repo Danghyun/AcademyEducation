@@ -3,6 +3,8 @@ import 'package:education/view/home/home_page.dart';
 import 'package:education/view/second/second_page.dart';
 import 'package:flutter/material.dart';
 
+//테스트
+
 void main() {
   runApp(const MyApp());
 }
