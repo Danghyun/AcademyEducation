@@ -1,13 +1,17 @@
+# 빌드 모듈 이름
 name: 'pubspec_build_module'
 
+# 프로젝트 버전
 version: 1.0.0+1
 
+# Dart SDk 버전
 environment:
   sdk: ^3.5.1
 
 # 빌드 타임에서만 사용할 프로젝트이므로,
 # .dependencies:  속성은 불필요
 
+# 개발 의존성 (build 파일의 yaml 파일들을 읽어오기 위해서 추가)
 dev_dependencies:
   # https://pub.dev/packages/build_runner
   build_runner: ^2.4.8
