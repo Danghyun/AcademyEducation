@@ -1,0 +1,21 @@
+name: 'pubspec_build_module'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# 빌드 타임에서만 사용할 프로젝트이므로,
+# .dependencies:  속성은 불필요
+
+dev_dependencies:
+  # https://pub.dev/packages/build_runner
+  build_runner: ^2.4.8
+  # https://pub.dev/packages/build_test
+  build_test: ^2.2.2
+  # https://pub.dev/packages/build
+  build: ^2.4.1
+  # https://pub.dev/packages/yaml
+  yaml: ^3.1.2
+  # https://pub.dev/packages/glob
+  glob: ^2.1.2

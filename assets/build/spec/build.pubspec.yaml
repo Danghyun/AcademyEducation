@@ -1,0 +1,18 @@
+# 상세 내용을 여기서 읽어오도록 PubspecBuilder 를 작성했었음
+# ${root}/assets/build/spec/build.pubspec.yaml
+targets:
+  # 타겟 이름 $default : 패키지의 기본 타겟을 지정하며, 패키지 이름과 동일한 값
+  $default:
+    # 소스 : 타겟에 포함될 소스 파일들을 지정
+    sources:
+      # lib 디렉토리와 그 하위 모든 파일을 포함
+      - lib/** # lib/$lib$
+      - $package$
+      - spec/base.yaml # pubspec.yaml 에서의 기본 설정 모음
+      - spec/dependencies.yaml # pubspec.yaml 에서의 의존성 설정 모음
+      # 우리가 만들고 있는 build 패키지는 명시한 순서대로 붙여넣기 식으로 동작하도록 구성되므로,
+      # dependencies/dev_dependencies 설정 아래에 기입되어야할 때는 여기에 작성
+      - spec/dev_dependencies.yaml
+      # - spec/flutter_native_splash.yaml
+      # - spec/flutter_launcher_icons.yaml
+      - spec/flutter.yaml # pubspec.yaml 에서의 flutter 속성 관련 설정 모음

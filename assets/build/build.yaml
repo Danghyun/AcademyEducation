@@ -1,0 +1,10 @@
+# 빌더 정의 : 빌더에 대한 정보를 정의한다.(이 정의는 pubspec.yaml 파일에만 있어야 함)
+# 더 자세한 사항은 https://pub.dev/packages/build_config 파일을 참조
+builders:
+  pubspec_builder:
+    import: "package:pubspec_build_module/build.dart"
+    builder_factories: [ "pubspecBuilder" ]
+    build_extensions: { ".yaml": [ ".generated.yaml" ] }
+    auto_apply: root_package
+    build_to: source
+    target: spec/build.pubspec.yaml # 이 파일에 정의된 파일들을 대상으로 실행한다.
