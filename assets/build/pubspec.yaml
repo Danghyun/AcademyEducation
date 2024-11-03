@@ -6,7 +6,7 @@ version: 1.0.0+1
 
 # Dart SDk 버전
 environment:
-  sdk: ^3.5.1
+  sdk: ^3.5.0
 
 # 빌드 타임에서만 사용할 프로젝트이므로,
 # .dependencies:  속성은 불필요

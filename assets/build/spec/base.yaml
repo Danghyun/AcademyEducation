@@ -23,3 +23,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # 프로젝트의 버전
 version: 1.0.0+1
+
+# Dart SDk 버전
+environment:
+  sdk: ^3.5.0
