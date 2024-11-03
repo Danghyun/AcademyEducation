@@ -1,4 +1,7 @@
+# 프로젝트 이름
 name: education
+
+# 프로젝트 설명
 description: "수업용"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -16,8 +19,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
+
+# 프로젝트의 버전
 version: 1.0.0+1
 
+# Dart SDK 버전
 environment:
   sdk: ^3.5.1
 
@@ -27,7 +33,11 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+
+# 의존성(라이브러리) 목록
 dependencies:
+
+  # Flutter SDK
   flutter:
     sdk: flutter
 
@@ -36,6 +46,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+# 개발 간 의존성 목록 : 컴파일탕임일 때만 동작, 런타임에서는 동작하지 않는다.
 dev_dependencies:
   flutter_test:
     sdk: flutter
