@@ -66,15 +66,6 @@ flutter:
   # 메테리얼 디자인 시스템 사용 여부
   uses-material-design: true
   # 에셋들 경로 : 프로젝트 디렉토리 구조에 맞게 작성하면 된다.
-  assets:
-    # 이미지 경로
-    - assets/images
-    # 사운드 경로
-    - assets/sounds
-    # 비디오 경로
-    - assets/videos
-    # 3D 오브젝트 경로
-    - assets/object
 
   # To add assets to your application, add an assets section, like this:
   # assets:
